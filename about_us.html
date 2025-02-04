@@ -3,27 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/newsnest.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <link rel="stylesheet" href="css/index.css">
-    <title>About TechGlobe - Our Mission and Vision</title>
+    <title>About NewsNest - Our Story and Mission</title>
     <style>
         body {
-            background-color: #f4f7f6;
+            background-color: #f8fafc;
         }
         .about-us-container {
             max-width: 1100px;
             margin: 80px auto 40px;
             background-color: white;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
             overflow: hidden;
         }
         .about-us-header {
-            background-color: #444;
-            /* border-top: 1px solid #444;
-    color: #888; */
+            background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
             color: white;
             padding: 40px;
             text-align: center;
@@ -31,18 +29,23 @@
         .about-us-header h1 {
             margin-bottom: 15px;
             font-size: 2.5em;
+            font-weight: 700;
+        }
+        .about-us-header p {
+            opacity: 0.9;
         }
         .about-us-content {
             padding: 40px;
             line-height: 1.6;
-            color: #000000;
+            color: #333;
         }
         .about-us-content h2 {
-            color: #444;
+            color: #2563eb;
             margin-top: 25px;
             margin-bottom: 15px;
-            border-bottom: 2px solid #444;
+            border-bottom: 2px solid #2563eb;
             padding-bottom: 10px;
+            font-weight: 600;
         }
         .about-us-content ul {
             list-style-type: none;
@@ -52,12 +55,13 @@
             position: relative;
             padding-left: 30px;
             margin-bottom: 15px;
+            color: #475569;
         }
         .about-us-content ul li::before {
             content: '✓';
             position: absolute;
             left: 0;
-            color: #444;
+            color: #2563eb;
             font-weight: bold;
         }
         .mission-values {
@@ -67,9 +71,18 @@
         }
         .mission-values > div {
             flex: 1;
-            background-color: #444;
+            background-color: #f1f5f9;
             padding: 20px;
             border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .mission-values > div:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .mission-values h3 {
+            color: #2563eb;
+            margin-bottom: 15px;
         }
         @media (max-width: 768px) {
             .about-us-container {
@@ -94,7 +107,7 @@
                     <img src="images/newsnest.png" alt="NewsNest Logo" class="logo-image">
                 </a>
                 <div class="logo-text">
-                    <span class="tagline">Unveiling Tomorrow's Technology Today</span>
+                    <span class="tagline">News You Can Trust</span>
                 </div>
             </div>
             <button class="mobile-menu-btn">☰</button>
@@ -107,50 +120,48 @@
         </div>
     </header>
 
-
     <div class="container">
         <div class="about-us-container" data-aos="fade-up">
             <div class="about-us-header">
-                <h1>About TechGlobe</h1>
-                <p>Bridging Innovation and Understanding in the Digital Age</p>
+                <h1>About NewsNest</h1>
+                <p>Bringing Stories That Matter to Your Doorstep</p>
             </div>
             
             <div class="about-us-content">
-                <p>TechGlobe emerged as a visionary platform in 2025, dedicated to demystifying the complex world of technology and making cutting-edge innovations accessible to everyone.</p>
+                <p>NewsNest emerged as a dynamic news platform in 2025, dedicated to delivering comprehensive, engaging, and meaningful stories from around the globe.</p>
                 
                 <h2>Our Mission</h2>
-                <p>We are committed to transforming complex technological concepts into engaging, comprehensible narratives that empower our readers to understand and appreciate the digital revolution happening around them.</p>
+                <p>We are committed to transforming how people consume news by providing in-depth, unbiased, and compelling narratives that go beyond headlines and spark meaningful conversations.</p>
                 
                 <div class="mission-values">
                     <div>
                         <h3>Our Vision</h3>
-                        <p>To be the most trusted and innovative technology news platform, connecting people with the transformative power of technology.</p>
+                        <p>To be the most trusted and innovative news platform, connecting people with stories that inform, inspire, and impact the world.</p>
                     </div>
                     <div>
                         <h3>Our Values</h3>
                         <ul>
-                            <li>Integrity in Reporting</li>
-                            <li>Passion for Technology</li>
-                            <li>Clarity and Accessibility</li>
-                            <li>Continuous Learning</li>
+                            <li>Journalistic Integrity</li>
+                            <li>Comprehensive Reporting</li>
+                            <li>Diverse Perspectives</li>
+                            <li>Commitment to Truth</li>
                         </ul>
                     </div>
                 </div>
                 
                 <h2>What We Do</h2>
                 <ul>
-                    <li>Provide in-depth analysis of emerging technologies</li>
-                    <li>Cover breakthrough innovations across various tech sectors</li>
-                    <li>Offer expert perspectives on digital transformation</li>
-                    <li>Highlight the human stories behind technological advancements</li>
+                    <li>Deliver in-depth coverage across global news categories</li>
+                    <li>Provide balanced and nuanced reporting</li>
+                    <li>Explore stories that matter to our readers</li>
+                    <li>Highlight human experiences and global perspectives</li>
                 </ul>
                 
                 <h2>Our Commitment</h2>
-                <p>At TechGlobe, we believe in the power of storytelling to make technology approachable. Our team of experienced tech writers, researchers, and industry experts work tirelessly to bring you accurate, timely, and thought-provoking content that goes beyond mere news reporting.</p>
+                <p>At NewsNest, we believe in the power of storytelling to connect, inform, and inspire. Our team of experienced journalists, researchers, and storytellers work tirelessly to bring you accurate, timely, and thought-provoking content that goes beyond traditional news reporting.</p>
             </div>
         </div>
     </div>
-
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
